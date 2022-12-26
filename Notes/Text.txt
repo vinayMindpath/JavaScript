@@ -1,0 +1,7 @@
+JavaScript is a single threaded language that is used to build a strong backend. it supports both synchronous and 
+asynchronous operations. Synchronous means executing instruction sequentionally like traditional way. Asynchronous means
+executing in such a way that executing one instruction doesn't affect the execution of another instruction.
+
+
+It helps us build a strong backend which help user interact with more effectively and going good.
+

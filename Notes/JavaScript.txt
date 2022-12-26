@@ -1,0 +1,48 @@
+JavaScript is a single threaded language that is used to build a strong backend. it supports both synchronous and 
+asynchronous operations. Synchronous means executing instruction sequentionally like traditional way. Asynchronous means
+executing in such a way that executing one instruction doesn't affect the execution of another instruction.
+
+
+It helps us build a strong backend which help user interact with more effectively and going good.
+
+JavaScript has many traditionally feature like operator, variable, flow, and function with some new concept such as
+callbacks, promises, new kind of loops and more advanced topics. 
+
+
+variable : Variable are the basic entity of a program which holds a value that can be used when needed in the program.
+
+operator : Operators are the special symbol which have an specific meaning or say role to play in program such as
+'+' is used to add two operands, '==' is compare two operands, '&&' performs logical operations on operands. 
+We have different operator available in Js which can be used to manipulate and operate the operands. 
+1. Arithmatic operators,
+2. Relational operators,
+3. Logical operators,
+4. Assignment operators
+5. Equality Operators.
+
+constants : Constants are the value that can never be change throughout the program. i.e. string constant, number constant, etc.
+1. string constants : 'Hello world', 'Ch'.
+2. bool constants : true, false.
+3. number constants : 1, 1.43, 1.323E12 . 
+
+Keywords : Keywords are the special symbol which have a predifined meaning in our programing, for example
+function : is used to  create a function.
+if : is used for conditional statement.
+try- catch : are used for error handling tasks.
+
+identifier : identifier are the set of words that are as an identity in our program, such if we create a function 
+named add(), then throughout the program if we want to access the functionality of add we got to call add() everytime.
+
+
+Special symbols : Special symbols are the symbol which are assigned an special meaning. for example, 
+',' : is used to separate 
+'' : used to create an string 
+() : to create a function 
+';' : used as a terminator 
+':' : used in key- value pair.
+
+
+Advance concept :
+Callbacks : Callbacks are the function which takes a parameter that is an function itself.
+
+for example
