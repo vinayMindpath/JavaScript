@@ -16,6 +16,9 @@ const data = async ()=>{
     });
 }
 
-data().catch(err => console.log("got error")); 
+data().catch(err => {
+    console.log("got error");
+    console.error(err)
+}); 
 // console.log(data().allSettled())
 // data.allSettled()
