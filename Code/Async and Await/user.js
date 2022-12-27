@@ -21,10 +21,11 @@ const getTitle = (video) =>{
         }, 2000);
     })
 }
-user("vaina","apsdsd")
-.then(user =>videos(user.userEmail))
-.then(res =>{
-    res.forEach(element => {
-       getTitle(element).then(res => console.log(res))
-    });
-})
+
+const userValue = async ()=>{
+    let userData = await user("vinay@mindpathtech",21332);
+    let userVideo = await videos(userData.userEmail);
+    let videotitle =await getTitle(userVideo[1]);
+    console.log(videotitle);
+}
+userValue()

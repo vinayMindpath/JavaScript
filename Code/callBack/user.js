@@ -1,7 +1,3 @@
-// import { start } from "repl";
-
-// import { title } from "process";
-
 function login(email,pass,callback){
     setTimeout(() => {
         return callback({userEmail : email});
