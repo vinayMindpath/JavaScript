@@ -8,7 +8,7 @@ const data = async ()=>{
     // console.log(comments.allSettled())
     let top10 = 1;
     comments.forEach(val => {
-        if(top10 <=10){
+        if(top10 <=5){
             // console.log(val.email +" "+val.id)
             console.log(val)
         }
@@ -16,9 +16,9 @@ const data = async ()=>{
     });
 }
 
-data().catch(err => {
+await data().catch(err => {
     console.log("got error");
     console.error(err)
 }); 
-// console.log(data().allSettled())
-// data.allSettled()
+
+Promise.allSettled([data]).then(mes => console.log(mes))
