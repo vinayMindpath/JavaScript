@@ -11,7 +11,7 @@ function compute(a, callback) {
 }
 
 function square(a) {
-  value = compute(a, multiply);
+  let value = compute(a, multiply);
   return value;
 }
 console.log(square(4));
