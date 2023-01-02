@@ -1,5 +1,6 @@
 function multiply(a, b) {
   setTimeout(() => {
+
     console.log("value available");
     return a * b;
   }, 1000);
@@ -15,6 +16,9 @@ function square(a) {
 
 async function execute() {
   let a = await square(4);
+  console.log(a);
+  return a;
+}
   //   console.log(a);
   return a;
 }
