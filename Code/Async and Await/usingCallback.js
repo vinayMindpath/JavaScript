@@ -1,5 +1,7 @@
 function multiply(a, b) {
   setTimeout(() => {
+
+    console.log("value available");
     return a * b;
   }, 1000);
 }
@@ -17,5 +19,9 @@ async function execute() {
   console.log(a);
   return a;
 }
+  //   console.log(a);
+  return a;
+}
+console.log(execute());
 execute().then((res) => console.log(res));
 // this is an example where await is return a callback rather than promise

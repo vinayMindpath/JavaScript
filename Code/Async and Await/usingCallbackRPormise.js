@@ -19,4 +19,6 @@ square(4).then((res) => {
   console.log(res);
 });
 
+
+Promise.allSettled([square(4)]).then((res) => console.log(res));
 // this is an example where await is return a callback rather than promise but used an async keyword which alwasys return a promise
