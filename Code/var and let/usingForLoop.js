@@ -1,3 +1,4 @@
+// using var to define variable in for loop
 function usingVar() {
   for (var i = 0; i < 5; i++) {
     setTimeout(() => {
@@ -9,6 +10,7 @@ function usingVar() {
 
 usingVar();
 
+// using let to define variable in for loop
 function usingLet() {
   for (let i = 0; i < 5; i++) {
     setTimeout(() => {
