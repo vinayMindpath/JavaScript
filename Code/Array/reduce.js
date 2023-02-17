@@ -8,6 +8,8 @@ const list = [
   { user: "user3" },
 ];
 
+const array = [1, 1, 12, , 3, 2, 1, 13];
+
 const uniqueIds = [];
 
 const newList = list.reduce((user, value, index) => {
@@ -18,3 +20,9 @@ const newList = list.reduce((user, value, index) => {
   return user;
 }, []);
 console.log(newList);
+
+const usingUniques = array.reduce(
+  (unique, item) => (unique.includes(item) ? unique : [...unique, item]),
+  []
+);
+console.log(...usingUniques);
